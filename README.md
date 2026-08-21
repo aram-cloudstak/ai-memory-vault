@@ -2,7 +2,9 @@
 
 > **Never used Claude Code?** Start at [jaredrhod.com](https://jaredrhod.com): pick your situation and it routes you to the right path.
 
-Give your AI a real, persistent memory. This is the open-source system that turns an Obsidian vault into your AI's working memory, so it remembers everything across sessions, lives outside the model with no size ceiling, and pulls back exactly what it needs in one step. Free to use, share, and build on, including commercially inside your own business (see LICENSE).
+**Runs on:** built and tested on Claude Code; any terminal AI that reads and writes files works with rough edges. The $20 Pro plan is enough.
+
+Give your AI a real, persistent memory. This is the free, open system that turns an Obsidian vault into your AI's working memory, so it remembers everything across sessions, lives outside the model with no size ceiling, and pulls back exactly what it needs in one step. Free to use, share, and build on, including commercially inside your own business (see LICENSE).
 
 **It also ships with my actual agent.** People kept asking whether they could just download my Jarvis instead of inventing an assistant from scratch, so now the boot config arrives with him already in it: the name, the personality, the way he talks, and the rules he runs on. Keep him as-is, keep him and change the name, or replace him with your own. Your call, and it's one section of one file either way.
 
@@ -29,6 +31,10 @@ Starter files for the system. Every spot that needs your information is marked `
 - **[DAILY-NOTE.md](templates/DAILY-NOTE.md):** the daily-note template. Goes **inside your vault** at `01 - Daily Notes/Daily Note Template.md`. Every daily note gets created from it, so the log keeps one consistent, scannable shape.
 - **[MEMORY.md](templates/MEMORY.md):** the pointer for Claude Code's own memory. Goes in **Claude Code's project folder** (`~/.claude/projects/...`, not your vault). It redirects the native memory back into the vault so you never end up with two memory layers that drift apart.
 
+## Updating
+
+The build script, the templates, and the wizard improve continuously. If you keep a copy of this repo on disk, say to your agent: **"pull the latest ai-memory-vault and tell me what changed."** Updates only ever touch the repo's own files. Your vault, your notes, and your CLAUDE.md are yours and are never inside this repo, so nothing you built can be overwritten. Installed through fullstack-agent? `./fullstack-agent/update.sh` updates every piece at once and prints what changed.
+
 ## The rest of it
 
 A mind is better with a mouth, a face, and hands. Once your agent remembers you, the natural next steps are talking to it out loud, giving it a face on screen, and moving your notes around with your bare hands.
@@ -36,7 +42,7 @@ A mind is better with a mouth, a face, and hands. Once your agent remembers you,
 - **The whole stack, one command.** [fullstack-agent](https://github.com/jaredrhod/fullstack-agent) installs the memory, the voice, the face, and the hands, and wires them together for you. Pick only the pieces you want: https://jaredrhod.com
 - **The videos.** Free series on all of it: https://youtube.com/@jaredrhod
 - **The Discord.** Thousands of builders, and the fastest place to get unstuck: https://discord.gg/YSdsqMv3V8
-- **Everything else,** free and open source: https://jaredrhod.com
+- **Everything else,** free and open: https://jaredrhod.com
 
 ## Support
 
